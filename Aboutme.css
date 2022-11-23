@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 75%/120% sans-serif;
+  }
+  
+  #largeImg {
+    border: solid 1px #ccc;
+    width: 3400;
+    height: 2182px;
+    padding: 5px;
+  }
+  
+  #thumbs a {
+    border: solid 1px #ccc;
+    width: 768px;
+    height: 598px;
+    padding: 3px;
+    margin: 2px;
+    float: left;
+  }
+  
+  #thumbs a:hover {
+    border-color: #FF9900;
+  }
+  
+  #thumbs li {
+    list-style: none;
+  }
+  
+  #thumbs {
+    margin: 0;
+    padding: 0;
+  }
+  li img{
+    width: 100%;
+  }
+  .Galery{
+    margin-top: 200px;
+    margin-left: 200px;
+    
+  }
+  .Aboutme p{
+    font-size: 100px;
+    line-height: 1.5;
+    margin-top: 50x;
+    margin-left: 50px;
+  }
+  h1{
+    color: rgb(7, 7, 5);
+    font-size: 180px;
+    text-align: center;
+  }

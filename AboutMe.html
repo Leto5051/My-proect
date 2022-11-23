@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+    <link rel="shortcut icon" type="image/x-icon" href="free-icon-internet-2721688.png">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="MyWorks.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+            <title>МОИ НАВЫКИ</title>
+        <!-- Отображать страницу в масштабе 100% -->
+        <meta name="viewport" content="width=device-width, initia-scale=1">
+    </head>
+    <body>
+   
+  
+    <!DOCTYPE HTML>
+<html>
+
+<head>
+  
+  <link rel="stylesheet" href="Aboutme.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <h1>
+    МОИ НАВЫКИ
+  </h1>
+
+<div class="Galery">
+  <p><img id="largeImg" src="tilda.jpg" alt="Large image" aline="middle"></p>
+
+  <ul id="thumbs">
+    <!-- браузер показывает небольшую встроенную подсказку из атрибута "title" при наведении курсора на текст -->
+    <li>
+      <a href="tilda.jpg" title="Image 2"><img src="tilda.jpg"></a>
+    </li>
+    <li>
+      <a href="1.jpg" title="Image 3"><img src="1.jpg"></a>
+    </li>
+    <li>
+      <a href="2.jpg" title="Image 4"><img src="2.jpg"></a>
+    </li>
+    <li>
+      <a href="3.jpg" title="Image 5"><img src="3.jpg"></a>
+    </li>
+    <li>
+      <a href="4.JPG" title="Image 6"><img src="4.JPG"></a>
+    </li>
+  </ul>
+</div>
+  <script>
+    thumbs.onclick = function(event) {
+      let thumbnail = event.target.closest('a');
+
+      if (!thumbnail) return;
+      showThumbnail(thumbnail.href, thumbnail.title);
+      event.preventDefault();
+    }
+
+    function showThumbnail(href, title) {
+      largeImg.src = href;
+      largeImg.alt = title;
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+</body>
+
+    </html>
